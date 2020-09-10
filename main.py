@@ -22,7 +22,7 @@ def set_png_as_page_bg(jpg_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg('deep-learning-neural-networks.jpg')
+set_png_as_page_bg('bg.jpg')
 
 select =  st.sidebar.radio('Please enter your choice :',('Home','Image Classification','Mathematical Operation'))
 if select == 'Image Classification':
