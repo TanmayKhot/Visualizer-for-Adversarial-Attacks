@@ -1,0 +1,664 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled8.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "5e00923b310c46868afbffc53254af62": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "state": {
+            "_view_name": "HBoxView",
+            "_dom_classes": [],
+            "_model_name": "HBoxModel",
+            "_view_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_view_count": null,
+            "_view_module_version": "1.5.0",
+            "box_style": "",
+            "layout": "IPY_MODEL_20880a3b06c84966b801e084c5a85cc0",
+            "_model_module": "@jupyter-widgets/controls",
+            "children": [
+              "IPY_MODEL_10288d1dee6248bbb7cb2cd853cf72f1",
+              "IPY_MODEL_c0588e59e69f44ecae1c1f4d0ecb31dd"
+            ]
+          }
+        },
+        "20880a3b06c84966b801e084c5a85cc0": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "state": {
+            "_view_name": "LayoutView",
+            "grid_template_rows": null,
+            "right": null,
+            "justify_content": null,
+            "_view_module": "@jupyter-widgets/base",
+            "overflow": null,
+            "_model_module_version": "1.2.0",
+            "_view_count": null,
+            "flex_flow": null,
+            "width": null,
+            "min_width": null,
+            "border": null,
+            "align_items": null,
+            "bottom": null,
+            "_model_module": "@jupyter-widgets/base",
+            "top": null,
+            "grid_column": null,
+            "overflow_y": null,
+            "overflow_x": null,
+            "grid_auto_flow": null,
+            "grid_area": null,
+            "grid_template_columns": null,
+            "flex": null,
+            "_model_name": "LayoutModel",
+            "justify_items": null,
+            "grid_row": null,
+            "max_height": null,
+            "align_content": null,
+            "visibility": null,
+            "align_self": null,
+            "height": null,
+            "min_height": null,
+            "padding": null,
+            "grid_auto_rows": null,
+            "grid_gap": null,
+            "max_width": null,
+            "order": null,
+            "_view_module_version": "1.2.0",
+            "grid_template_areas": null,
+            "object_position": null,
+            "object_fit": null,
+            "grid_auto_columns": null,
+            "margin": null,
+            "display": null,
+            "left": null
+          }
+        },
+        "10288d1dee6248bbb7cb2cd853cf72f1": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "state": {
+            "_view_name": "ProgressView",
+            "style": "IPY_MODEL_e6a5b002dfcc410f9b3ad008b55cc477",
+            "_dom_classes": [],
+            "description": "100%",
+            "_model_name": "FloatProgressModel",
+            "bar_style": "success",
+            "max": 46827520,
+            "_view_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "value": 46827520,
+            "_view_count": null,
+            "_view_module_version": "1.5.0",
+            "orientation": "horizontal",
+            "min": 0,
+            "description_tooltip": null,
+            "_model_module": "@jupyter-widgets/controls",
+            "layout": "IPY_MODEL_22b3a54436f64839a606f27bbf92bb2c"
+          }
+        },
+        "c0588e59e69f44ecae1c1f4d0ecb31dd": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "state": {
+            "_view_name": "HTMLView",
+            "style": "IPY_MODEL_608f9dcce8954c3f8693c8462de70e58",
+            "_dom_classes": [],
+            "description": "",
+            "_model_name": "HTMLModel",
+            "placeholder": "​",
+            "_view_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "value": " 44.7M/44.7M [00:12&lt;00:00, 3.84MB/s]",
+            "_view_count": null,
+            "_view_module_version": "1.5.0",
+            "description_tooltip": null,
+            "_model_module": "@jupyter-widgets/controls",
+            "layout": "IPY_MODEL_131eb6f6e1c7441f80c1534280dcb37a"
+          }
+        },
+        "e6a5b002dfcc410f9b3ad008b55cc477": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "state": {
+            "_view_name": "StyleView",
+            "_model_name": "ProgressStyleModel",
+            "description_width": "initial",
+            "_view_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.5.0",
+            "_view_count": null,
+            "_view_module_version": "1.2.0",
+            "bar_color": null,
+            "_model_module": "@jupyter-widgets/controls"
+          }
+        },
+        "22b3a54436f64839a606f27bbf92bb2c": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "state": {
+            "_view_name": "LayoutView",
+            "grid_template_rows": null,
+            "right": null,
+            "justify_content": null,
+            "_view_module": "@jupyter-widgets/base",
+            "overflow": null,
+            "_model_module_version": "1.2.0",
+            "_view_count": null,
+            "flex_flow": null,
+            "width": null,
+            "min_width": null,
+            "border": null,
+            "align_items": null,
+            "bottom": null,
+            "_model_module": "@jupyter-widgets/base",
+            "top": null,
+            "grid_column": null,
+            "overflow_y": null,
+            "overflow_x": null,
+            "grid_auto_flow": null,
+            "grid_area": null,
+            "grid_template_columns": null,
+            "flex": null,
+            "_model_name": "LayoutModel",
+            "justify_items": null,
+            "grid_row": null,
+            "max_height": null,
+            "align_content": null,
+            "visibility": null,
+            "align_self": null,
+            "height": null,
+            "min_height": null,
+            "padding": null,
+            "grid_auto_rows": null,
+            "grid_gap": null,
+            "max_width": null,
+            "order": null,
+            "_view_module_version": "1.2.0",
+            "grid_template_areas": null,
+            "object_position": null,
+            "object_fit": null,
+            "grid_auto_columns": null,
+            "margin": null,
+            "display": null,
+            "left": null
+          }
+        },
+        "608f9dcce8954c3f8693c8462de70e58": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "state": {
+            "_view_name": "StyleView",
+            "_model_name": "DescriptionStyleModel",
+            "description_width": "",
+            "_view_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.5.0",
+            "_view_count": null,
+            "_view_module_version": "1.2.0",
+            "_model_module": "@jupyter-widgets/controls"
+          }
+        },
+        "131eb6f6e1c7441f80c1534280dcb37a": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "state": {
+            "_view_name": "LayoutView",
+            "grid_template_rows": null,
+            "right": null,
+            "justify_content": null,
+            "_view_module": "@jupyter-widgets/base",
+            "overflow": null,
+            "_model_module_version": "1.2.0",
+            "_view_count": null,
+            "flex_flow": null,
+            "width": null,
+            "min_width": null,
+            "border": null,
+            "align_items": null,
+            "bottom": null,
+            "_model_module": "@jupyter-widgets/base",
+            "top": null,
+            "grid_column": null,
+            "overflow_y": null,
+            "overflow_x": null,
+            "grid_auto_flow": null,
+            "grid_area": null,
+            "grid_template_columns": null,
+            "flex": null,
+            "_model_name": "LayoutModel",
+            "justify_items": null,
+            "grid_row": null,
+            "max_height": null,
+            "align_content": null,
+            "visibility": null,
+            "align_self": null,
+            "height": null,
+            "min_height": null,
+            "padding": null,
+            "grid_auto_rows": null,
+            "grid_gap": null,
+            "max_width": null,
+            "order": null,
+            "_view_module_version": "1.2.0",
+            "grid_template_areas": null,
+            "object_position": null,
+            "object_fit": null,
+            "grid_auto_columns": null,
+            "margin": null,
+            "display": null,
+            "left": null
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "GZYTmVsIkVVF",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 544
+        },
+        "outputId": "aa97f863-d96c-49ca-dc3c-b8e6cbac18a1"
+      },
+      "source": [
+        "pip install foolbox\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Collecting foolbox\n",
+            "\u001b[?25l  Downloading https://files.pythonhosted.org/packages/a0/78/f4f8d2654893b1382e6e7dc10e06c9ebaca9cf0fc22584f6ecc324140f0b/foolbox-3.1.1-py3-none-any.whl (1.7MB)\n",
+            "\u001b[K     |████████████████████████████████| 1.7MB 4.5MB/s \n",
+            "\u001b[?25hCollecting requests>=2.24.0\n",
+            "\u001b[?25l  Downloading https://files.pythonhosted.org/packages/45/1e/0c169c6a5381e241ba7404532c16a21d86ab872c9bed8bdcd4c423954103/requests-2.24.0-py2.py3-none-any.whl (61kB)\n",
+            "\u001b[K     |████████████████████████████████| 71kB 7.5MB/s \n",
+            "\u001b[?25hRequirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from foolbox) (1.18.5)\n",
+            "Collecting eagerpy==0.29.0\n",
+            "  Downloading https://files.pythonhosted.org/packages/e1/07/54994565da4fc5a4840d3a434fb9bf3835b4a4e68c931ccfcc327d568f95/eagerpy-0.29.0-py3-none-any.whl\n",
+            "Requirement already satisfied: typing-extensions>=3.7.4.1 in /usr/local/lib/python3.6/dist-packages (from foolbox) (3.7.4.3)\n",
+            "Requirement already satisfied: setuptools in /usr/local/lib/python3.6/dist-packages (from foolbox) (50.3.0)\n",
+            "Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from foolbox) (1.4.1)\n",
+            "Collecting GitPython>=3.0.7\n",
+            "\u001b[?25l  Downloading https://files.pythonhosted.org/packages/09/bc/ae32e07e89cc25b9e5c793d19a1e5454d30a8e37d95040991160f942519e/GitPython-3.1.8-py3-none-any.whl (159kB)\n",
+            "\u001b[K     |████████████████████████████████| 163kB 28.9MB/s \n",
+            "\u001b[?25hRequirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.6/dist-packages (from requests>=2.24.0->foolbox) (2020.6.20)\n",
+            "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.6/dist-packages (from requests>=2.24.0->foolbox) (1.24.3)\n",
+            "Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.6/dist-packages (from requests>=2.24.0->foolbox) (2.10)\n",
+            "Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.6/dist-packages (from requests>=2.24.0->foolbox) (3.0.4)\n",
+            "Collecting gitdb<5,>=4.0.1\n",
+            "\u001b[?25l  Downloading https://files.pythonhosted.org/packages/48/11/d1800bca0a3bae820b84b7d813ad1eff15a48a64caea9c823fc8c1b119e8/gitdb-4.0.5-py3-none-any.whl (63kB)\n",
+            "\u001b[K     |████████████████████████████████| 71kB 6.1MB/s \n",
+            "\u001b[?25hCollecting smmap<4,>=3.0.1\n",
+            "  Downloading https://files.pythonhosted.org/packages/b0/9a/4d409a6234eb940e6a78dfdfc66156e7522262f5f2fecca07dc55915952d/smmap-3.0.4-py2.py3-none-any.whl\n",
+            "\u001b[31mERROR: google-colab 1.0.0 has requirement requests~=2.23.0, but you'll have requests 2.24.0 which is incompatible.\u001b[0m\n",
+            "\u001b[31mERROR: datascience 0.10.6 has requirement folium==0.2.1, but you'll have folium 0.8.3 which is incompatible.\u001b[0m\n",
+            "Installing collected packages: requests, eagerpy, smmap, gitdb, GitPython, foolbox\n",
+            "  Found existing installation: requests 2.23.0\n",
+            "    Uninstalling requests-2.23.0:\n",
+            "      Successfully uninstalled requests-2.23.0\n",
+            "Successfully installed GitPython-3.1.8 eagerpy-0.29.0 foolbox-3.1.1 gitdb-4.0.5 requests-2.24.0 smmap-3.0.4\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Mix2r0PhkLxX",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "import torch\n",
+        "from torchvision import transforms as T\n",
+        "import torchvision.models as models\n",
+        "import eagerpy as ep\n",
+        "from foolbox import PyTorchModel, accuracy, samples\n",
+        "from foolbox.attacks import *\n",
+        "from PIL import Image\n",
+        "import numpy as np\n"
+      ],
+      "execution_count": 74,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "d24xdoO4kUqD",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 83,
+          "referenced_widgets": [
+            "5e00923b310c46868afbffc53254af62",
+            "20880a3b06c84966b801e084c5a85cc0",
+            "10288d1dee6248bbb7cb2cd853cf72f1",
+            "c0588e59e69f44ecae1c1f4d0ecb31dd",
+            "e6a5b002dfcc410f9b3ad008b55cc477",
+            "22b3a54436f64839a606f27bbf92bb2c",
+            "608f9dcce8954c3f8693c8462de70e58",
+            "131eb6f6e1c7441f80c1534280dcb37a"
+          ]
+        },
+        "outputId": "e1645b6f-3a56-44c7-c2da-d0fde07d9b8b"
+      },
+      "source": [
+        "model = models.resnet18(pretrained=True).eval()\n",
+        "preprocessing = dict(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225], axis=-3)\n",
+        "fmodel = PyTorchModel(model, bounds=(0, 1), preprocessing=preprocessing)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Downloading: \"https://download.pytorch.org/models/resnet18-5c106cde.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-5c106cde.pth\n"
+          ],
+          "name": "stderr"
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "application/vnd.jupyter.widget-view+json": {
+              "model_id": "5e00923b310c46868afbffc53254af62",
+              "version_minor": 0,
+              "version_major": 2
+            },
+            "text/plain": [
+              "HBox(children=(FloatProgress(value=0.0, max=46827520.0), HTML(value='')))"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          }
+        },
+        {
+          "output_type": "stream",
+          "text": [
+            "\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "uuQthafdlGbf",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "b0900019-b41b-4b62-c3ea-b518153d628f"
+      },
+      "source": [
+        "\n",
+        "transform = T.Compose([            \n",
+        " T.Resize(256),                    \n",
+        " T.CenterCrop(224),                \n",
+        " T.ToTensor(),                     \n",
+        " T.Normalize(mean=[0.485, 0.456, 0.406],\n",
+        "             std=[0.229, 0.224, 0.225])\n",
+        " ])\n",
+        "\n",
+        "\n",
+        "img = Image.open('airplane2.jpg')\n",
+        "transformed_img = transform(img)\n",
+        "input_img = transformed_img.unsqueeze(0)\n",
+        "input_img.shape"
+      ],
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "torch.Size([1, 3, 224, 224])"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 26
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "nN-dXLkLkjZn",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "b4364b65-9424-4dfa-977b-e70221033ae8"
+      },
+      "source": [
+        "images, labels = ep.astensors(*samples(fmodel, dataset=\"imagenet\", batchsize=16))\n",
+        "#print(accuracy(fmodel, images, labels))\n",
+        "labels.dtype\n",
+        "x = torch.tensor([5])\n",
+        "labels.shape\n",
+        "x= labels[:1]\n",
+        "print(x)"
+      ],
+      "execution_count": 104,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "PyTorchTensor(tensor([243]))\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "pBdiNLpok30k",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "with open('imagenet_classes.txt') as f:\n",
+        "  classes = [line.strip() for line in f.readlines()]"
+      ],
+      "execution_count": 82,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1JqndoeGqzLH",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "eb51bdcc-cc33-4dba-ff7e-b834ccb44ec8"
+      },
+      "source": [
+        "e = 0.5\n",
+        "attack = L2CarliniWagnerAttack()\n",
+        "for a in range(5):\n",
+        "  advs, _, success = attack(fmodel, input_img, x, epsilons=e)\n",
+        "  e = e + 1\n",
+        "  i = advs[0]\n",
+        "  advx = i.numpy()\n",
+        "  rescaled = (advx - advx.min()) / (advx.max() - advx.min())\n",
+        "  rescaled = (255*np.transpose(np.squeeze(rescaled))).astype(np.uint8)\n",
+        "  rescaled = np.moveaxis(rescaled ,0, 1)\n",
+        "  output = Image.fromarray(rescaled)\n",
+        "  s = 'Repeated' + str(e) + '.png'\n",
+        "  output.save(s, 'png')"
+      ],
+      "execution_count": 111,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:8: RuntimeWarning: invalid value encountered in true_divide\n",
+            "  \n"
+          ],
+          "name": "stderr"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DvxwtoKfrWdd",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "def loadimage(s):\n",
+        "  img = Image.open(s)\n",
+        "  transformed_img = transform(img)\n",
+        "  final_img = transformed_img.unsqueeze(0)\n",
+        "  return final_img"
+      ],
+      "execution_count": 57,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "RmwqhIwBtJP0",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "f362cd8e-9207-49eb-eae6-d26127f5375f"
+      },
+      "source": [
+        "name = \"DDN5.1.png\"\n",
+        "x = loadimage(name)\n",
+        "x.shape"
+      ],
+      "execution_count": 92,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "torch.Size([1, 3, 224, 224])"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 92
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tH6N73ZitKj-",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "modell = models.resnet18(pretrained=True).eval()\n",
+        "output = model(x)"
+      ],
+      "execution_count": 93,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DBxp-a6ZtMjr",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "a9bfb0a0-12e0-458a-d1af-2ec75b1c5c13"
+      },
+      "source": [
+        "_, index = torch.max(output, 1)\n",
+        "percentage = torch.nn.functional.softmax(output, dim=1)[0] * 100\n",
+        "print(classes[index[0]], percentage[index[0]].item())"
+      ],
+      "execution_count": 94,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "airliner 93.52415466308594\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "akHgUbYDtPmB",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 102
+        },
+        "outputId": "a7e79237-00c2-481e-ded5-428c3d5b82cf"
+      },
+      "source": [
+        "_, indices = torch.sort(output, descending=True)\n",
+        "[(classes[idx], percentage[idx].item()) for idx in indices[0][:5]]"
+      ],
+      "execution_count": 95,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[('airliner', 93.52415466308594),\n",
+              " ('wing', 5.847478866577148),\n",
+              " ('warplane, military plane', 0.35963329672813416),\n",
+              " ('space shuttle', 0.2405858188867569),\n",
+              " ('airship, dirigible', 0.0106109119951725)]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 95
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "TYERSRAbtRw0",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 95,
+      "outputs": []
+    }
+  ]
+}
