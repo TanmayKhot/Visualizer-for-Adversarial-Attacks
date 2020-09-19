@@ -18,10 +18,10 @@ It is a web-based application to analyze the state of the art models based on th
 # Classification Models Included
 *Imported from <a href="https://pytorch.org/docs/stable/torchvision/models.html">PyTorch models</a>* 
 - AlexNet
-- DenseNet
+- DenseNet121
 - GoogleNet
 - InceptionNet
-- ResNet50
+- ResNet101
 - VGG16
 
 # Adversarial Attacks Included
