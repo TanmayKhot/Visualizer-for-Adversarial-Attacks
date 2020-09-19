@@ -55,4 +55,6 @@ It is a web-based application to analyze the state of the art models based on th
 - Run the App:
 
         streamlit run main.py
-      
+- Stop the app from terminal:
+
+        Ctrl+C
