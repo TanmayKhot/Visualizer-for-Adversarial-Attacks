@@ -25,7 +25,7 @@ It is a web-based application to analyze the state of the art models based on th
 - VGG16
 
 # Adversarial Attacks Included
-*Imported from <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html">Adversarial Robustness</a> Toolbox* 
+*Imported from <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html">Adversarial Robustness Toolbox</a>* 
 - DeepFool
 - FGSM
 - PGD
