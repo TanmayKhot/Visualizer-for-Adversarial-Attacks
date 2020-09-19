@@ -26,8 +26,12 @@ It is a web-based application to analyze the state of the art models based on th
 
 # Adversarial Attacks Included
 *Imported from Adversarial Robustness Toolbox* 
-- DeepFool
-- FGSM
-- PGD
 - AutoAttack
 - BasicIterativeMethod
+- DeepFool
+- FGSM
+- NewtonFool
+- PGD
+- UniversalPerturbation
+
+
