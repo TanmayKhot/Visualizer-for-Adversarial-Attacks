@@ -37,6 +37,7 @@ It is a web-based application to analyze the state of the art models based on th
 
         pip install streamlit
         pip install adversarial-robustness-toolbox
+        pip install torchvision
 
 - Cloning the Repository: 
 
