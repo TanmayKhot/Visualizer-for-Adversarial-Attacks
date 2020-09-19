@@ -41,7 +41,7 @@ It is a web-based application to analyze the state of the art models based on th
 - Cloning the Repository: 
 
         git clone https://github.com/TanmayKhot/Fluorine.git
- - Enter The directory: 
+- Enter The directory: 
 
         cd Flourine
 - Run the App:
