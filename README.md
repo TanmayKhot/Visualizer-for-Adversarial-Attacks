@@ -2,7 +2,7 @@
 # Adversarial Attack & Classifications Vizualizer.
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" height="18" >   <img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/advtool.JPG" height="24">    <img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/streamlit.png" height="18"> 
+<a href="https://pytorch.org"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" height="18" ></a><a href="https://github.com/Trusted-AI/adversarial-robustness-toolbox"><img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/advtool.JPG" height="24"></a>  <a href="https://www.streamlit.io/"><img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/streamlit.png" height="18"></a>
 <br>
 <br>
 It is a web-based application to analyze the state of the art models based on their susceptibility against various adversarial attacks and also to find a model perfect for user's needs according to the dataset. 
@@ -16,7 +16,7 @@ It is a web-based application to analyze the state of the art models based on th
 - Would help one to analyze which model is better for their personal use.
  
 # Classification Models Included
-*Imported from PyTorch models* 
+*Imported from <a href="https://pytorch.org/docs/stable/torchvision/models.html">PyTorch models</a>* 
 - AlexNet
 - DenseNet
 - GoogleNet
@@ -25,13 +25,11 @@ It is a web-based application to analyze the state of the art models based on th
 - VGG16
 
 # Adversarial Attacks Included
-*Imported from Adversarial Robustness Toolbox* 
-- AutoAttack
-- BasicIterativeMethod
+*Imported from <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html">Adversarial Robustness</a> Toolbox* 
 - DeepFool
 - FGSM
-- NewtonFool
 - PGD
-- UniversalPerturbation
+- AutoAttack
+- BasicIterativeMethod
 
 
