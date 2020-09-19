@@ -32,4 +32,16 @@ It is a web-based application to analyze the state of the art models based on th
 - AutoAttack
 - BasicIterativeMethod
 
+# Steps for usage
+- Setting up the Environment with dependencies:
 
+        pip install streamlit
+        pip install adversarial-robustness-toolbox
+
+- Cloning the Repository: 
+
+        git clone https://github.com/TanmayKhot/Fluorine.git
+- Run the App:
+
+        streamlit run main.py
+      
