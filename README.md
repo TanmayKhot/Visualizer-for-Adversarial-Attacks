@@ -51,7 +51,7 @@ It is a web-based application to analyze the state of the art models based on th
         git clone https://github.com/TanmayKhot/Fluorine.git
 - Enter The directory: 
 
-        cd Flourine
+        cd Fluorine
 - Run the App:
 
         streamlit run main.py
