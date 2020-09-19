@@ -58,3 +58,6 @@ It is a web-based application to analyze the state of the art models based on th
 - Stop the app from terminal:
 
         Ctrl+C
+
+# Examples
+<img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/art/example.png">
