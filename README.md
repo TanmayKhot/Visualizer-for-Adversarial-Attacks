@@ -60,4 +60,4 @@ It is a web-based application to analyze the state of the art models based on th
         Ctrl+C
 
 # Examples
-<img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/master/art/example.png">
+<img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/master/art/example.png" align="center">
