@@ -26,11 +26,18 @@ It is a web-based application to analyze the state of the art models based on th
 
 # Adversarial Attacks Included
 *Imported from <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html">Adversarial Robustness Toolbox</a>* 
-- DeepFool
-- FGSM
-- PGD
 - AutoAttack
 - BasicIterativeMethod
+- Carlini L2 Method
+- DeepFool
+- ElasticNet
+- FGSM
+- Hop Skip Jump
+- NewtonFool
+- Projected Gradient Descent
+- UniversalPerturbation
+- ZOO Attack
+
 
 # Steps for usage
 - Setting up the Python Environment with dependencies:
