@@ -33,7 +33,7 @@ It is a web-based application to analyze the state of the art models based on th
 - BasicIterativeMethod
 
 # Steps for usage
-- Setting up the Environment with dependencies:
+- Setting up the Python Environment with dependencies:
 
         pip install streamlit
         pip install adversarial-robustness-toolbox
@@ -41,6 +41,9 @@ It is a web-based application to analyze the state of the art models based on th
 - Cloning the Repository: 
 
         git clone https://github.com/TanmayKhot/Fluorine.git
+ - Enter The directory: 
+
+        cd Flourine
 - Run the App:
 
         streamlit run main.py
