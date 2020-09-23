@@ -2,7 +2,7 @@
 # Adversarial Attack & Classifications Vizualizer.
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" height="18" >   <img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/advtool.JPG" height="24">    <img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/streamlit.png" height="18"> 
+<a href="https://pytorch.org"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" height="18" ></a><a href="https://github.com/Trusted-AI/adversarial-robustness-toolbox"><img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/advtool.JPG" height="24"></a>  <a href="https://www.streamlit.io/"><img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/adv/Images/streamlit.png" height="18"></a>
 <br>
 <br>
 It is a web-based application to analyze the state of the art models based on their susceptibility against various adversarial attacks and also to find a model perfect for user's needs according to the dataset. 
@@ -16,22 +16,48 @@ It is a web-based application to analyze the state of the art models based on th
 - Would help one to analyze which model is better for their personal use.
  
 # Classification Models Included
-*Imported from PyTorch models* 
+*Imported from <a href="https://pytorch.org/docs/stable/torchvision/models.html">PyTorch models</a>* 
 - AlexNet
-- DenseNet
+- DenseNet121
 - GoogleNet
 - InceptionNet
-- ResNet50
+- ResNet101
 - VGG16
 
 # Adversarial Attacks Included
-*Imported from Adversarial Robustness Toolbox* 
+*Imported from <a href="https://adversarial-robustness-toolbox.readthedocs.io/en/latest/index.html">Adversarial Robustness Toolbox</a>* 
 - AutoAttack
 - BasicIterativeMethod
+- Carlini L2 Method
 - DeepFool
+- ElasticNet
 - FGSM
+- Hop Skip Jump
 - NewtonFool
-- PGD
+- Projected Gradient Descent
 - UniversalPerturbation
+- ZOO Attack
 
 
+# Steps for usage
+- Setting up the Python Environment with dependencies:
+
+        pip install torchvision
+        pip install streamlit
+        pip install adversarial-robustness-toolbox
+
+- Cloning the Repository: 
+
+        git clone https://github.com/TanmayKhot/Fluorine.git
+- Enter The directory: 
+
+        cd Fluorine
+- Run the App:
+
+        streamlit run main.py
+- Stop the app from terminal:
+
+        Ctrl+C
+
+# Demonstration
+![](Demo.gif)
