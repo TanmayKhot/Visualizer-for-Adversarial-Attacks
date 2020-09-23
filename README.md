@@ -59,5 +59,5 @@ It is a web-based application to analyze the state of the art models based on th
 
         Ctrl+C
 
-# Examples
-<p align="center"><img src="https://raw.githubusercontent.com/TanmayKhot/Fluorine/master/art/example.png" class="center"></p>
+# Demonstration
+![](Demo.gif)
