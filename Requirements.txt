@@ -1,0 +1,6 @@
+numpy
+torch
+torchvision
+streamlit
+adversarial-robustness-toolbox
+PIL
